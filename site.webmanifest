@@ -1,0 +1,22 @@
+{
+  "name": "시소바이오 - 청정 동해 해양심층수",
+  "short_name": "시소바이오",
+  "description": "1000년 숙성된 청정 동해 해양심층수로 만든 프리미엄 소금",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#0066CC",
+  "background_color": "#FFFFFF",
+  "display": "standalone",
+  "start_url": "/",
+  "scope": "/"
+}

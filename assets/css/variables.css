@@ -1,0 +1,253 @@
+/* ==========================================
+   CSS Variables - Design System
+   Siso Bio Corporate Website
+   ========================================== */
+
+/* ==========================================
+   LIGHT MODE (Default)
+   ========================================== */
+
+:root {
+  
+  /* ===== Primary Colors ===== */
+  --color-primary: #0066CC;              /* Ocean Blue - CTA, Links */
+  --color-primary-hover: #0052A3;        /* Primary Hover */
+  --color-primary-active: #003D7A;       /* Primary Active */
+  
+  --color-secondary: #005B96;            /* Deep Sea Blue - Headers */
+  --color-accent: #09A9C8;               /* Light Ocean - Highlights */
+  
+  /* ===== Background Colors ===== */
+  --color-bg-primary: #FFFFFF;           /* Main page background */
+  --color-bg-secondary: #F8F9FA;         /* Alternate section background */
+  --color-bg-tertiary: #E9ECEF;          /* Footer background */
+  
+  /* ===== Surface Colors (Cards, Boxes) ===== */
+  --color-surface: #FFFFFF;              /* Card background */
+  --color-surface-hover: #F8F9FA;        /* Card hover background */
+  
+  /* ===== Text Colors ===== */
+  --color-text-primary: #1A1A1A;         /* Headings, important text */
+  --color-text-secondary: #4A4A4A;       /* Body text */
+  --color-text-tertiary: #666666;        /* Secondary text, captions */
+  --color-text-disabled: #999999;        /* Disabled text */
+  --color-text-inverse: #FFFFFF;         /* Text on dark backgrounds */
+  
+  /* ===== Border & Divider ===== */
+  --color-border-light: #E0E0E0;         /* Light borders */
+  --color-border-medium: #BDBDBD;        /* Medium borders */
+  --color-border-strong: #757575;        /* Strong borders */
+  
+  /* ===== Semantic Colors ===== */
+  --color-success: #28A745;
+  --color-warning: #FFC107;
+  --color-error: #DC3545;
+  --color-info: #17A2B8;
+  
+  /* ===== Shadows ===== */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
+  --shadow-xl: 0 16px 48px rgba(0, 0, 0, 0.15);
+  
+  /* ===== Typography ===== */
+  
+  /* Font Families */
+  --font-family-kr: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-family-en: 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
+  
+  /* Font Sizes - Desktop */
+  --font-size-h1: 3rem;                  /* 48px */
+  --font-size-h2: 2.5rem;                /* 40px */
+  --font-size-h3: 2rem;                  /* 32px */
+  --font-size-h4: 1.5rem;                /* 24px */
+  --font-size-h5: 1.25rem;               /* 20px */
+  --font-size-h6: 1rem;                  /* 16px */
+  --font-size-body: 1rem;                /* 16px */
+  --font-size-body-lg: 1.125rem;         /* 18px */
+  --font-size-body-sm: 0.875rem;         /* 14px */
+  --font-size-caption: 0.75rem;          /* 12px */
+  
+  /* Font Weights */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  
+  /* Line Heights */
+  --line-height-tight: 1.2;              /* Headers */
+  --line-height-normal: 1.6;             /* Body text */
+  --line-height-relaxed: 1.8;            /* Long-form content */
+  
+  /* Letter Spacing */
+  --letter-spacing-tight: -0.02em;       /* Large headers */
+  --letter-spacing-normal: 0;
+  --letter-spacing-wide: 0.05em;         /* Small caps, buttons */
+  
+  /* ===== Spacing (8px Grid) ===== */
+  --space-unit: 0.5rem;                  /* 8px - base unit */
+  --spacing-xs: 0.25rem;                 /* 4px */
+  --spacing-sm: 0.5rem;                  /* 8px */
+  --spacing-md: 1rem;                    /* 16px */
+  --spacing-lg: 1.5rem;                  /* 24px */
+  --spacing-xl: 2rem;                    /* 32px */
+  --spacing-2xl: 3rem;                   /* 48px */
+  --spacing-3xl: 4rem;                   /* 64px */
+  --spacing-4xl: 5rem;                   /* 80px */
+  --spacing-5xl: 6rem;                   /* 96px */
+  --spacing-6xl: 8rem;                   /* 128px */
+  
+  /* ===== Container & Layout ===== */
+  --container-max-width: 1200px;
+  --container-padding-mobile: 1.5rem;    /* 24px */
+  --container-padding-tablet: 3rem;      /* 48px */
+  --container-padding-desktop: 7.5rem;   /* 120px */
+  
+  /* Section Spacing */
+  --section-padding-mobile: 3.75rem;     /* 60px */
+  --section-padding-tablet: 4.5rem;      /* 72px */
+  --section-padding-desktop: 5rem;       /* 80px */
+  
+  /* Grid Gaps */
+  --card-gap-mobile: 1.5rem;             /* 24px */
+  --card-gap-tablet: 2rem;               /* 32px */
+  --card-gap-desktop: 2rem;              /* 32px */
+  
+  /* ===== Border Radius ===== */
+  --radius-none: 0;
+  --radius-sm: 0.25rem;                  /* 4px */
+  --radius: 0.5rem;                      /* 8px */
+  --radius-md: 0.75rem;                  /* 12px */
+  --radius-lg: 1rem;                     /* 16px */
+  --radius-xl: 1.5rem;                   /* 24px */
+  --radius-full: 9999px;                 /* Circle */
+  
+  /* Component Specific */
+  --button-radius: 0.5rem;               /* 8px */
+  --card-radius: 0.75rem;                /* 12px */
+  --input-radius: 0.5rem;                /* 8px */
+  --image-radius: 0.75rem;               /* 12px */
+  
+  /* ===== Transitions ===== */
+  --transition-fast: 150ms;
+  --transition-base: 250ms;
+  --transition-slow: 350ms;
+  --transition-slower: 500ms;
+  
+  /* Easing Functions */
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-out: cubic-bezier(0.0, 0, 0.2, 1);
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --ease-sharp: cubic-bezier(0.4, 0, 0.6, 1);
+  
+  /* ===== Z-Index Scale ===== */
+  --z-base: 0;
+  --z-dropdown: 1000;
+  --z-sticky: 1100;
+  --z-fixed: 1200;
+  --z-modal-backdrop: 1300;
+  --z-modal: 1400;
+  --z-popover: 1500;
+  --z-tooltip: 1600;
+  
+  /* ===== Breakpoints (Reference only, use in media queries) ===== */
+  --breakpoint-mobile: 375px;
+  --breakpoint-mobile-lg: 428px;
+  --breakpoint-tablet: 768px;
+  --breakpoint-tablet-lg: 1024px;
+  --breakpoint-desktop: 1280px;
+  --breakpoint-desktop-lg: 1440px;
+  --breakpoint-desktop-xl: 1920px;
+}
+
+
+/* ==========================================
+   DARK MODE
+   ========================================== */
+
+[data-theme="dark"] {
+  
+  /* ===== Primary Colors ===== */
+  --color-primary: #4A9EFF;              /* Ocean Blue (Lighter) */
+  --color-primary-hover: #6BB2FF;        /* Primary Hover */
+  --color-primary-active: #8BC7FF;       /* Primary Active */
+  
+  --color-secondary: #66B3FF;            /* Deep Sea Blue (Lighter) */
+  --color-accent: #48D4DB;               /* Light Cyan */
+  
+  /* ===== Background Colors ===== */
+  --color-bg-primary: #0A1929;           /* Dark Navy - Main background */
+  --color-bg-secondary: #132F4C;         /* Medium Navy - Section background */
+  --color-bg-tertiary: #1E3A5F;          /* Light Navy - Footer background */
+  
+  /* ===== Surface Colors (Cards, Boxes) ===== */
+  --color-surface: #1A2332;              /* Card background */
+  --color-surface-hover: #243447;        /* Card hover background */
+  
+  /* ===== Text Colors ===== */
+  --color-text-primary: #F5F5F5;         /* Headings, important text */
+  --color-text-secondary: #B0B8C1;       /* Body text */
+  --color-text-tertiary: #8A94A6;        /* Secondary text, captions */
+  --color-text-disabled: #5A6672;        /* Disabled text */
+  --color-text-inverse: #1A1A1A;         /* Text on light backgrounds */
+  
+  /* ===== Border & Divider ===== */
+  --color-border-light: #2D3843;         /* Light borders */
+  --color-border-medium: #3D4A59;        /* Medium borders */
+  --color-border-strong: #4D5A6A;        /* Strong borders */
+  
+  /* ===== Semantic Colors (Adjusted for dark bg) ===== */
+  --color-success: #4CAF50;
+  --color-warning: #FFB74D;
+  --color-error: #EF5350;
+  --color-info: #29B6F6;
+  
+  /* ===== Shadows (Stronger for dark mode) ===== */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.2);
+  --shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.6);
+  --shadow-xl: 0 16px 48px rgba(0, 0, 0, 0.7);
+  
+  /* Typography, Spacing, Transitions remain the same */
+  /* (Inherited from :root) */
+}
+
+
+/* ==========================================
+   RESPONSIVE TYPOGRAPHY
+   ========================================== */
+
+/* Tablet: 768px - 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
+  :root {
+    --font-size-h1: 2.5rem;              /* 40px */
+    --font-size-h2: 2rem;                /* 32px */
+    --font-size-h3: 1.75rem;             /* 28px */
+  }
+}
+
+/* Mobile: < 768px */
+@media (max-width: 767px) {
+  :root {
+    --font-size-h1: 2rem;                /* 32px */
+    --font-size-h2: 1.5rem;              /* 24px */
+    --font-size-h3: 1.25rem;             /* 20px */
+    --font-size-body: 0.875rem;          /* 14px */
+  }
+}
+
+
+/* ==========================================
+   PRINT STYLES
+   ========================================== */
+
+@media print {
+  :root {
+    --color-bg-primary: #FFFFFF;
+    --color-text-primary: #000000;
+    --shadow: none;
+    --shadow-md: none;
+    --shadow-lg: none;
+  }
+}

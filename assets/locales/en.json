@@ -1,0 +1,386 @@
+{
+  "meta": {
+    "title": "SISOBIO - Pure Deep Sea Water from East Sea"
+  },
+  "nav": {
+    "about": "About",
+    "business": "Business",
+    "products": "Products",
+    "certifications": "Certifications",
+    "contact": "Contact",
+    "language": "KO",
+    "langSwitch": "KO",
+    "themeSwitch": "Dark Mode"
+  },
+  "hero": {
+    "title": "Pure Deep Sea Water from East Sea",
+    "subtitle": "1,000 years of pristine purity from the depths of the ocean",
+    "description": "A specialized company in deep-sea water technology, producing premium salt and researching bio-materials",
+    "cta1": "View Products",
+    "cta2": "About Us"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "SISOBIO is a leader in deep-sea water research and premium salt production",
+    "subtitle": "Deep Sea Water Bio Technology Company",
+    "overview": {
+      "title": "Company Overview",
+      "name": "Company Name",
+      "nameValue": "SISOBIO",
+      "established": "Established",
+      "ceo": "CEO",
+      "ceoValue": "Kyeong-Do Chun",
+      "location": "Headquarters",
+      "locationValue": "Goseong-gun, Gangwon-do",
+      "factory": "Factory Location",
+      "factoryValue": "Gangneung-si, Gangwon-do"
+    },
+    "description2": "Its flagship brand, 'Deungdae Salt The Flake', is crafted using proprietary low-temperature crystallization and layered drying technology, preserving the natural minerals essential to human health such as Na, Mg, Ca, K, and Sr.",
+    "vision": {
+      "title": "Vision",
+      "content": "Beyond salt production, SISOBIO focuses on refining and analyzing deep-sea trace elements to develop functional food ingredients and bio-materials."
+    },
+    "partnership": {
+      "title": "Research Collaboration",
+      "content": "Through continuous collaboration with the Ceramic Materials Engineering Laboratory of Gangneung-Wonju National University, the company is advancing high-purity sodium and rare-metal extraction technologies, building the foundation for a sustainable ocean-based materials industry."
+    },
+    "timeline": {
+      "title": "Milestones",
+      "year2024": "Launched 3 premium salt products",
+      "year2023": "Obtained deep-sea water extraction patent",
+      "year2022": "Completed production facility",
+      "year2021": "Corporation established",
+      "items": [
+        {
+          "year": "2025",
+          "events": [
+            "Factory registered in Gangneung",
+            "Advanced high-purity sodium and trace element extraction technology, initiated functional food and bio-material research",
+            "Launched premium flake salt brand capturing Gangneung's ocean",
+            "Launched 'Deungdae Salt The Flake' 3 product variants"
+          ]
+        },
+        {
+          "year": "2024",
+          "events": [
+            "Patent No. 10-2722001 'System and Method for Producing Salt Using Deep-Sea Water' registered",
+            "Improved mineral preservation through low-temperature crystallization and layered drying process",
+            "Trademark application for 'Deungdae Salt'"
+          ]
+        },
+        {
+          "year": "2023",
+          "events": [
+            "Established process standardization for mineral analysis and crystal formation",
+            "Expanded salt crystallization system experiments based on water quality data from Gangneung and Goseong waters"
+          ]
+        },
+        {
+          "year": "2022",
+          "events": [
+            "Patent No. 10-2462843 'Oil Press Machine for Extracting Seed Components of Medicinal Crops' registered",
+            "Signed tenancy contract with Goseong Deep Sea Water Industry Promotion Agency",
+            "Established deep-sea water mineral-based product development laboratory"
+          ]
+        },
+        {
+          "year": "2021",
+          "events": [
+            "Corporation established in Goseong-gun, Gangwon Province",
+            "Initiated deep-sea water crystallization research",
+            "Commenced flake crystal structure stabilization experiments and prototype development"
+          ]
+        }
+      ]
+    }
+  },
+  "business": {
+    "title": "Business",
+    "subtitle": "Deep Sea Water Bio Research",
+    "description": "From deep-sea water research to premium salt production",
+    "research": {
+      "title": "Research & Development",
+      "description": "Research on mineral composition analysis and extraction technology of deep-sea water"
+    },
+    "production": {
+      "title": "Production",
+      "description": "Premium salt production using pure East Sea deep-sea water"
+    },
+    "quality": {
+      "title": "Quality Control",
+      "description": "Rigorous quality verification system and various certifications obtained"
+    },
+    "areas": [
+      {
+        "title": "Material Engineering",
+        "subtitle": "Food and Medical Ingredients",
+        "description": "Research on cosmetic and functional food materials",
+        "details": [
+          "Deep-sea water trace element analysis and purification",
+          "High-purity sodium and rare metal extraction technology",
+          "Functional food and bio-material development"
+        ]
+      },
+      {
+        "title": "Material Development",
+        "subtitle": "Raw Material Development",
+        "description": "Sustainable ocean-based materials industry technology",
+        "details": [
+          "Premium flake salt manufacturing technology",
+          "Low-temperature crystallization and layered drying process",
+          "Enhanced mineral preservation technology"
+        ]
+      }
+    ]
+  },
+  "products": {
+    "title": "Products",
+    "subtitle": "Deungdae Salt The Flake",
+    "description": "Premium salt made from pure deep-sea water",
+    "badge": "NEW",
+    "cta": "Inquiry",
+    "original100": {
+      "name": "Deungdae Salt Original",
+      "subtitle": "100g Bottle Type",
+      "description": "Premium clean salt made from East Sea deep-sea water"
+    },
+    "pouch250": {
+      "name": "Deungdae Salt Pouch",
+      "subtitle": "250g Pouch Type",
+      "description": "Convenient zipper pouch for easy storage"
+    },
+    "pouch500": {
+      "name": "Deungdae Salt Large",
+      "subtitle": "500g Pouch Type",
+      "description": "Large package suitable for family use"
+    },
+    "specs": {
+      "weight": "Weight",
+      "type": "Package",
+      "bottle": "Bottle",
+      "pouch": "Pouch"
+    },
+    "items": [
+      {
+        "name": "Deungdae Salt The Flake 100g",
+        "subtitle": "Premium Bottle Product",
+        "description": "Premium line in an elegant bottle container. Perfect for table use as you can appreciate the clean flake crystals through the transparent glass.",
+        "features": [
+          "Clear bottle allows appreciation of crystal form",
+          "Ideal for premium gifts",
+          "Contains essential minerals (Na, Mg, Ca, K, Sr)",
+          "Microplastic 0ppm certified"
+        ],
+        "weight": "100g",
+        "usage": "Gifts, Table salt"
+      },
+      {
+        "name": "Deungdae Salt The Flake 250g",
+        "subtitle": "Home & Personal Use",
+        "description": "Produced with SISOBIO's low-temperature crystallization and multi-layer drying process, this salt maintains its natural mineral profile while achieving a clean, mild flavor and delicate texture.",
+        "features": [
+          "Contains essential minerals (Na, Mg, Ca, K, Sr)",
+          "Natural mineral balance preserved",
+          "Enhances umami without aftertaste",
+          "Microplastic 0ppm certified"
+        ],
+        "weight": "250g",
+        "usage": "Home cooking, Personal use"
+      },
+      {
+        "name": "Deungdae Salt The Flake 500g",
+        "subtitle": "Professional & Chef-Grade",
+        "description": "Professional line for restaurants and hotels. All products are manufactured and packaged in the Gangneung factory using certified deep-sea water sourced exclusively from the clean East Sea.",
+        "features": [
+          "Professional volume (500g)",
+          "Richer in minerals vs. refined salt",
+          "NaCl 94.2%, Moisture 5.3%",
+          "All heavy metals not detected"
+        ],
+        "weight": "500g",
+        "usage": "Restaurants, Hotels, Professional"
+      }
+    ],
+    "certInfo": {
+      "title": "Quality Certification",
+      "items": [
+        "Food Test Report (Dec. 2, 2024)",
+        "Microplastic 0ppm (KOTITI, May 2, 2024)",
+        "Factory Registration (July 14, 2025)",
+        "HACCP Team Leader Certified (Mar. 19, 2025)"
+      ]
+    }
+  },
+  "certifications": {
+    "title": "Certifications",
+    "subtitle": "Certifications & Patents",
+    "description": "Proven technology and quality management",
+    "tabs": {
+      "patents": "Patents",
+      "certs": "Certificates"
+    },
+    "patent1": {
+      "title": "System and Method for Producing Salt Using Deep-Sea Water"
+    },
+    "patent2": {
+      "title": "Oil Press Machine for Extracting Seed Components of Medicinal Crops"
+    },
+    "patents": {
+      "title": "Patents",
+      "items": [
+        {
+          "number": "No. 10-2462843",
+          "year": "2022",
+          "title": "Oil Press Machine for Extracting Seed Components of Medicinal Crops",
+          "date": "Registered Oct. 31, 2022"
+        },
+        {
+          "number": "No. 10-2722001",
+          "year": "2024",
+          "title": "System and Method for Producing Salt Using Deep-Sea Water",
+          "date": "Registered Oct. 22, 2024"
+        }
+      ]
+    },
+    "trademark": {
+      "title": "Trademark",
+      "items": [
+        {
+          "name": "Deungdae Salt",
+          "class": "Class 30",
+          "types": "Deep-Sea Water Salt, Recrystallized Salt, Refined Salt, Seasoned Salt, Flake Salt",
+          "date": "Applied Dec. 26, 2024",
+          "applicant": "Kyeong-Do Chun"
+        }
+      ]
+    },
+    "certificates": {
+      "title": "Certificates",
+      "items": [
+        {
+          "name": "Food Test Report",
+          "date": "Dec. 2, 2024",
+          "issuer": "",
+          "details": "All heavy metals (Pb, As, Hg, Cd) Not Detected / NaCl 94.2% / Moisture 5.3% — Fully Compliant"
+        },
+        {
+          "name": "Microplastic Test Report",
+          "date": "May 2, 2024",
+          "issuer": "KOTITI",
+          "details": "0 ppm (Not Detected)"
+        },
+        {
+          "name": "Factory Registration",
+          "date": "July 14, 2025",
+          "issuer": "",
+          "details": "641-28 Saimdang-ro, Gangneung / Food Additive Manufacturing Approved"
+        },
+        {
+          "name": "HACCP Team Leader Certification",
+          "date": "Mar. 19, 2025",
+          "issuer": "Korean Food Industry Association",
+          "details": "Food Safety Management Standards Education Completed"
+        },
+        {
+          "name": "Small Business Confirmation",
+          "date": "",
+          "issuer": "",
+          "details": ""
+        }
+      ]
+    },
+    "awards": {
+      "title": "Awards",
+      "items": [
+        {
+          "name": "Green Award",
+          "event": "2024 Regional Issues Solution Idea Contest",
+          "date": "Feb. 17, 2024",
+          "description": "Eco-friendly ocean salt circulation process idea"
+        },
+        {
+          "name": "Green Award",
+          "event": "2024 We SAVE ECO Upcycling Product Idea Competition",
+          "date": "Nov. 15, 2024",
+          "description": "Upcycling resource utilization idea"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Get in Touch",
+    "description": "For product and business inquiries, please contact us",
+    "company": {
+      "name": "시소바이오",
+      "nameEn": "SISOBIO",
+      "ceo": "천경도",
+      "ceoEn": "Kyeong-Do Chun (John)"
+    },
+    "info": {
+      "title": "Contact Information",
+      "phone": "Phone",
+      "phoneValue": "+82-70-8018-9079",
+      "email": "Email",
+      "address": "Address",
+      "addressOffice": "(Headquarters)",
+      "addressFactory": "(Factory)",
+      "viewMap": "View on Map",
+      "hours": "Business Hours",
+      "hoursValue": "Weekdays 09:00 - 18:00",
+      "website": "www.sisobio.com",
+      "businessNumber": "406-04-24945",
+      "established": "November 24, 2021"
+    },
+    "address": {
+      "office": "3F, 10, 42, Songjiho-ro, Jugwang-myeon, Goseong-gun, Gangwon-do, 24747, Rep. of KOREA (Deep Sea Water Industry Goseong Promotion Agency)",
+      "officeMap": "https://map.naver.com/v5/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B3%A0%EC%84%B1%EA%B5%B0%20%EC%A3%BD%EC%99%95%EB%A9%B4%20%EC%86%A1%EC%A7%80%ED%98%B8%EB%A1%9C%2042",
+      "factory": "2F, 205, 641-28, Saimdang-ro, Gangneung-si, Gangwon-do, 25451, Rep. of KOREA (Catholic Kwandong University R&B Park)",
+      "factoryMap": "https://map.naver.com/v5/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B0%95%EB%A6%89%EC%8B%9C%20%EC%82%AC%EC%9E%84%EB%8B%B9%EB%A1%9C%20641-28"
+    },
+    "business": {
+      "type": "Manufacturing",
+      "category": "Deep Sea Water Salt Manufacturing"
+    }
+  },
+  "footer": {
+    "company": "SISOBIO",
+    "description": "Premium salt made from pure East Sea deep-sea water",
+    "ceo": "CEO: Kyeong-Do Chun",
+    "businessNumber": "Business No: 406-04-24945",
+    "address": "Address: 3F, 10, 42, Songjiho-ro, Jugwang-myeon, Goseong-gun, Gangwon-do, 24747, Rep. of KOREA (Deep Sea Water Industry Goseong Promotion Agency)",
+    "phone": "Phone: 070-8018-9079",
+    "copyright": "© 2025 SISOBIO All rights reserved.",
+    "quickLinks": {
+      "title": "Quick Links",
+      "about": "About",
+      "business": "Business",
+      "products": "Products",
+      "certifications": "Certifications"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "refund": "Refund Policy"
+    },
+    "contact": {
+      "title": "Contact",
+      "hours": "Weekdays 09:00 - 18:00"
+    },
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+    "sitemap": "Sitemap",
+    "top": "Back to Top"
+  },
+  "common": {
+    "readMore": "Read More",
+    "contactUs": "Contact Us",
+    "learnMore": "Learn More",
+    "viewProducts": "View Products",
+    "close": "Close",
+    "menu": "Menu"
+  }
+}
