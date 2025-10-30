@@ -1,6 +1,6 @@
 /* ==========================================
    i18n (Internationalization)
-   Siso Bio Corporate Website
+   SISOBIO Corporate Website
    Korean/English Language Switching
    ========================================== */
 

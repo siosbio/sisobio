@@ -112,7 +112,7 @@ Desktop: ≥ 1024px
 
 ## 📄 라이선스
 
-Copyright © 2025 Siso Bio. All rights reserved.
+Copyright © 2025 SISOBIO. All rights reserved.
 
 ---
 

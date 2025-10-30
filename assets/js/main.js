@@ -1,6 +1,6 @@
 /* ==========================================
    Main JavaScript
-   Siso Bio Corporate Website
+   SISOBIO Corporate Website
    ========================================== */
 
 /**
@@ -8,7 +8,7 @@
  * Initialize all modules when DOM is ready
  */
 document.addEventListener('DOMContentLoaded', () => {
-  console.log('Siso Bio Website Loaded');
+  console.log('SISOBIO Website Loaded');
   
   // Initialize all modules
   initSmoothScroll();

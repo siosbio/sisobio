@@ -1,6 +1,6 @@
 /* ==========================================
    Navigation (Mobile Menu)
-   Siso Bio Corporate Website
+   SISOBIO Corporate Website
    ========================================== */
 
 /**

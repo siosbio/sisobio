@@ -1,6 +1,6 @@
 /* ==========================================
    Theme Toggle (Dark/Light Mode)
-   Siso Bio Corporate Website
+   SISOBIO Corporate Website
    ========================================== */
 
 /**
@@ -76,10 +76,10 @@ class ThemeManager {
     if (logoImg) {
       if (theme === 'dark') {
         // Dark mode: use white logo (logo.svg)
-        logoImg.src = '/assets/images/icons/logo.svg';
+        logoImg.src = './assets/images/icons/logo.svg';
       } else {
         // Light mode: use black logo (logo_black.svg)
-        logoImg.src = '/assets/images/icons/logo_black.svg';
+        logoImg.src = '//assets/images/icons/logo_black.svg';
       }
     }
   }
