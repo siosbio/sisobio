@@ -520,8 +520,7 @@
   color: var(--color-primary);
   margin: 0;
   white-space: nowrap;
-  align-self: start;
-  padding-top: 2px;
+  line-height: 1.6;
 }
 
 /* Address Text */

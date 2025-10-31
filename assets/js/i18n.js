@@ -69,7 +69,7 @@ class I18nManager {
     try {
       // Add cache busting timestamp to prevent browser caching
       const timestamp = new Date().getTime();
-      const response = await fetch(`/assets/locales/${language}.json?v=${timestamp}`);
+      const response = await fetch(`assets/locales/${language}.json?v=${timestamp}`);
       
       if (!response.ok) {
         throw new Error(`Failed to load ${language}.json: ${response.status}`);
