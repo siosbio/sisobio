@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "SISOBIO - Pure Deep Sea Water from East Sea"
+    "title": "SISOBIO - Innovation Opening the Future of Marine Resources"
   },
   "nav": {
     "about": "About",
@@ -13,8 +13,10 @@
     "themeSwitch": "Dark Mode"
   },
   "hero": {
-    "title": "Pure Deep Sea Water from East Sea",
-    "subtitle": "1,000 years of pristine purity from the depths of the ocean",
+    "titleLine1": "Innovation Opening",
+    "titleLine2": "Marine Resources' Future",
+    "subtitleLine1": "Pure Deep Sea Water R&D,",
+    "subtitleLine2": "Realizing the Value of Pure Salt",
     "description": "A specialized company in deep-sea water technology, producing premium salt and researching bio-materials",
     "cta1": "View Products",
     "cta2": "About Us"
