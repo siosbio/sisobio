@@ -50,7 +50,7 @@
       <!-- Desktop Navigation -->
       <ul class="nav__menu" role="menubar">
         <li role="none"><a href="#about" role="menuitem" data-i18n="nav.about">회사소개</a></li>
-        <li role="none"><a href="#business" role="menuitem" data-i18n="nav.business">사업영역</a></li>
+        <li role="none"><a href="#business" role="menuitem" data-i18n="nav.business">사업분야</a></li>
         <li role="none"><a href="#products" role="menuitem" data-i18n="nav.products">제품소개</a></li>
         <li role="none"><a href="#certifications" role="menuitem" data-i18n="nav.certifications">인증현황</a></li>
         <li role="none"><a href="#contact" role="menuitem" data-i18n="nav.contact">문의하기</a></li>
@@ -90,7 +90,7 @@
       <nav class="mobile-menu__nav" role="navigation">
         <ul role="menubar">
           <li role="none"><a href="#about" role="menuitem" data-i18n="nav.about">회사소개</a></li>
-          <li role="none"><a href="#business" role="menuitem" data-i18n="nav.business">사업영역</a></li>
+          <li role="none"><a href="#business" role="menuitem" data-i18n="nav.business">사업분야</a></li>
           <li role="none"><a href="#products" role="menuitem" data-i18n="nav.products">제품소개</a></li>
           <li role="none"><a href="#certifications" role="menuitem" data-i18n="nav.certifications">인증현황</a></li>
           <li role="none"><a href="#contact" role="menuitem" data-i18n="nav.contact">문의하기</a></li>
@@ -121,18 +121,17 @@
       <!-- Content -->
       <div class="hero__content">
         <h1 class="hero__title" id="hero-title">
-          <span class="hero__title-line" data-i18n="hero.titleLine1">해양 자원의</span>
-          <span class="hero__title-line" data-i18n="hero.titleLine2">미래를 여는 혁신</span>
+          <span class="hero__title-line" data-i18n="hero.titleLine1">청정 동해의 해양심층수</span>
         </h1>
         <p class="hero__subtitle">
-          <span class="hero__subtitle-line" data-i18n="hero.subtitleLine1">청정 동해의 해양심층수 연구 개발,</span>
-          <span class="hero__subtitle-line" data-i18n="hero.subtitleLine2">깨끗한 소금 한 꼬집의 가치를 실현합니다</span>
+          <span class="hero__subtitle-line" data-i18n="hero.subtitleLine1">깨끗한 소금 한 꼬집의 가치 실현</span>
+          <span class="hero__subtitle-line" data-i18n="hero.subtitleLine2">해양 자원의 미래를 여는 혁신</span>          
         </p>
         
         <!-- CTA Buttons -->
         <div class="hero__cta">
-          <a href="#products" class="btn btn-primary" data-i18n="hero.cta1">제품 보기</a>
-          <a href="#about" class="btn btn-secondary" data-i18n="hero.cta2">회사 소개</a>
+          <a href="#about" class="btn btn-primary" data-i18n="hero.cta1">회사 소개</a>
+          <a href="#products" class="btn btn-secondary" data-i18n="hero.cta2">제품 보기</a>
         </div>
       </div>
       
@@ -152,8 +151,9 @@
         <!-- Section Header -->
         <header class="section__header">
           <h2 class="section__title" id="about-title" data-i18n="about.title">회사소개</h2>
-          <p class="section__description" data-i18n="about.description">
-            시소바이오는 해양심층수 연구와 프리미엄 소금 생산을 선도하는 기업입니다
+          <p class="section__description">
+            <span class="section__description-line" data-i18n="about.descriptionLine1">해양심층수 연구 개발과</span>
+            <span class="section__description-line" data-i18n="about.descriptionLine2">프리미엄 소금 생산을 선도합니다</span>
           </p>
         </header>
         
@@ -191,28 +191,44 @@
             <h3 class="about__subtitle" data-i18n="about.timeline.title">연혁</h3>
             <ul class="timeline">
               <li class="timeline__item">
+                <div class="timeline__year">2025</div>
+                <ul class="timeline__events">
+                  <li data-i18n="about.timeline.event_2025_1">공장 등록 - 강원 강릉시</li>
+                  <li data-i18n="about.timeline.event_2025_2">'등대소금 더 플레이크(The Flake)' 3종 제품 출시</li>
+                  <li data-i18n="about.timeline.event_2025_3">강릉의 바다를 담은 프리미엄 플레이크 소금 브랜드 런칭</li>
+                  <li data-i18n="about.timeline.event_2025_4">고순도 소듐 및 미량원소 추출 기술 고도화, 기능성 식품·바이오 소재화 연구 착수</li>
+                </ul>
+              </li>
+              <li class="timeline__item">
                 <div class="timeline__year">2024</div>
-                <div class="timeline__content" data-i18n="about.timeline.year2024">
-                  프리미엄 소금 3종 출시
-                </div>
+                <ul class="timeline__events">
+                  <li data-i18n="about.timeline.event_2024_1">특허 등록 제10-2722001호 「해양심층수 이용한 소금 생산 시스템 및 방법」</li>
+                  <li data-i18n="about.timeline.event_2024_2">상표 출원 '등대소금'</li>
+                  <li data-i18n="about.timeline.event_2024_3">저온결정·층상건조 공정으로 미네랄 보존율 향상</li>
+                </ul>
               </li>
               <li class="timeline__item">
                 <div class="timeline__year">2023</div>
-                <div class="timeline__content" data-i18n="about.timeline.year2023">
-                  해양심층수 추출 특허 취득
-                </div>
+                <ul class="timeline__events">
+                  <li data-i18n="about.timeline.event_2023_1">해양심층수 미네랄 분석과 결정 공정 표준화 확립</li>
+                  <li data-i18n="about.timeline.event_2023_2">강릉·고성 해역의 수질 데이터 기반 염 결정 시스템 실험 확대</li>
+                </ul>
               </li>
               <li class="timeline__item">
                 <div class="timeline__year">2022</div>
-                <div class="timeline__content" data-i18n="about.timeline.year2022">
-                  생산 시설 구축 완료
-                </div>
+                <ul class="timeline__events">
+                  <li data-i18n="about.timeline.event_2022_1">특허 등록 제10-2462843호 「약용작물의 종자 성분 분리에 이용되는 오일 프레스기」</li>
+                  <li data-i18n="about.timeline.event_2022_2">(재)해양심층수산업 고성진흥원 입주 계약 체결</li>
+                  <li data-i18n="about.timeline.event_2022_3">심층수 미네랄 기반 제품개발 연구소 설립</li>
+                </ul>
               </li>
               <li class="timeline__item">
                 <div class="timeline__year">2021</div>
-                <div class="timeline__content" data-i18n="about.timeline.year2021">
-                  법인 설립
-                </div>
+                <ul class="timeline__events">
+                  <li data-i18n="about.timeline.event_2021_1">회사 설립 - 강원도 고성군</li>
+                  <li data-i18n="about.timeline.event_2021_2">심층수 결정 연구 시작</li>
+                  <li data-i18n="about.timeline.event_2021_3">플레이크 결정 구조 안정화 실험 및 시제품 개발 착수</li>
+                </ul>
               </li>
             </ul>
           </div>
@@ -227,7 +243,7 @@
       <div class="container">
         <!-- Section Header -->
         <header class="section__header">
-          <h2 class="section__title" id="business-title" data-i18n="business.title">사업영역</h2>
+          <h2 class="section__title" id="business-title" data-i18n="business.title">사업분야</h2>
           <p class="section__description" data-i18n="business.description">
             해양심층수 연구부터 프리미엄 소금 생산까지
           </p>
@@ -260,7 +276,7 @@
             </div>
             <h3 class="business-card__title" data-i18n="business.production.title">생산</h3>
             <p class="business-card__description" data-i18n="business.production.description">
-              청정 동해 해양심층수를 활용한 프리미엄 소금 생산
+              동해 해양심층수를 활용한 프리미엄 소금 생산
             </p>
           </article>
           
@@ -301,11 +317,11 @@
             <h3 class="products__intro-title" data-i18n="products.intro.title">등대소금 더 플레이크</h3>
             <p class="products__intro-description">
               <span class="products__intro-description-line" data-i18n="products.intro.descriptionLine1">동해 해양심층수의 깨끗한 수층에서 얻은 미네랄을 그대로 보존한 결정형 소금입니다.</span>
-              <span class="products__intro-description-line" data-i18n="products.intro.descriptionLine2">시소바이오만의 저온결정·층상건조 기술로 만들어져 염도가 부드럽고 미세한 플레이크 결정이 입안에서 자연스럽게 녹습니다.</span>
+              <span class="products__intro-description-line" data-i18n="products.intro.descriptionLine2">시소바이오만의 저온결정·층상건조 특허 기술로 만들어져 염도가 부드럽고 미세한 플레이크 결정이 입안에서 자연스럽게 녹습니다.</span>
             </p>
             <ul class="products__intro-highlights">
               <li class="products__intro-highlight" data-i18n="products.intro.highlights.0">동해 연안 6km, 수심 605m에서 취수한 청정 해양심층수</li>
-              <li class="products__intro-highlight" data-i18n="products.intro.highlights.1">북극 빙하가 1,000년 여정을 거쳐 도달한 깨끗한 바닷물</li>
+              <li class="products__intro-highlight" data-i18n="products.intro.highlights.1">No! 미세먼지 0에 수렴</li>
               <li class="products__intro-highlight" data-i18n="products.intro.highlights.2">미세플라스틱 0ppm (KOTITI 인증)</li>
               <li class="products__intro-highlight" data-i18n="products.intro.highlights.3">중금속 전 항목 불검출 (납·비소·수은·카드뮴)</li>
               <li class="products__intro-highlight" data-i18n="products.intro.highlights.4">Na, Mg, Ca, K, Sr 등 인체 필수 미네랄 자연 그대로 보존</li>
@@ -344,6 +360,10 @@
                   <span class="spec-item__label" data-i18n="products.specs.type">포장</span>
                   <span class="spec-item__value" data-i18n="products.specs.bottle">병</span>
                 </div>
+                <div class="spec-item">
+                  <span class="spec-item__label" data-i18n="products.specs.ingredient">원료명 및 함량</span>
+                  <span class="spec-item__value" data-i18n="products.specs.ingredientValue">해양심층수 100%</span>
+                </div>
               </div>
               
               <div class="product-card__price" style="display: none;">12,000원</div>
@@ -376,6 +396,10 @@
                   <span class="spec-item__label" data-i18n="products.specs.type">포장</span>
                   <span class="spec-item__value" data-i18n="products.specs.pouch">파우치</span>
                 </div>
+                <div class="spec-item">
+                  <span class="spec-item__label" data-i18n="products.specs.ingredient">원료명 및 함량</span>
+                  <span class="spec-item__value" data-i18n="products.specs.ingredientValue">해양심층수 100%</span>
+                </div>
               </div>
               
               <div class="product-card__price" style="display: none;">25,000원</div>
@@ -407,6 +431,10 @@
                 <div class="spec-item">
                   <span class="spec-item__label" data-i18n="products.specs.type">포장</span>
                   <span class="spec-item__value" data-i18n="products.specs.pouch">파우치</span>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-item__label" data-i18n="products.specs.ingredient">원료명 및 함량</span>
+                  <span class="spec-item__value" data-i18n="products.specs.ingredientValue">해양심층수 100%</span>
                 </div>
               </div>
               
@@ -447,13 +475,13 @@
                 <picture>
                   <source media="(min-width: 1024px)" srcset="./assets/images/certifications/patent_1_desktop.webp">
                   <source media="(min-width: 768px)" srcset="./assets/images/certifications/patent_1_tablet.webp">
-                  <img src="./assets/images/certifications/patent_1_mobile.webp" alt="특허 제10-2462843호" loading="lazy">
+                  <img src="./assets/images/certifications/patent_1_mobile.webp" alt="특허 제10-2722001호" loading="lazy">
                 </picture>
               </div>
               <div class="cert-card__content">
                 <h3 class="cert-card__title" data-i18n="certifications.patent1.title">해양심층수 이용한 소금 생산 시스템 및 방법</h3>
-                <p class="cert-card__number">특허 제10-2462843호</p>
-                <p class="cert-card__date">2024.10.22</p>
+                <p class="cert-card__number" data-i18n="certifications.patent1.number">특허 제10-2722001호</p>
+                <p class="cert-card__date" data-i18n="certifications.patent1.date">2024.10.22</p>
               </div>
             </article>
             
@@ -468,8 +496,8 @@
               </div>
               <div class="cert-card__content">
                 <h3 class="cert-card__title" data-i18n="certifications.patent2.title">약용작물의 종자 성분 분리에 이용되는 오일 프레스기</h3>
-                <p class="cert-card__number">특허 제10-2462843호</p>
-                <p class="cert-card__date">2022.10.31</p>
+                <p class="cert-card__number" data-i18n="certifications.patent2.number">특허 제10-2462843호</p>
+                <p class="cert-card__date" data-i18n="certifications.patent2.date">2022.10.31</p>
               </div>
             </article>
             
@@ -490,10 +518,10 @@
                 </picture>
               </div>
               <div class="cert-card__content">
-                <h3 class="cert-card__title">영업 신고증</h3>
+                <h3 class="cert-card__title" data-i18n="certifications.cert1.title">영업 신고증</h3>
               </div>
             </article>
-            
+
             <!-- Cert 2: 영업등록증 -->
             <article class="cert-card">
               <div class="cert-card__image">
@@ -504,10 +532,10 @@
                 </picture>
               </div>
               <div class="cert-card__content">
-                <h3 class="cert-card__title">영업등록증</h3>
+                <h3 class="cert-card__title" data-i18n="certifications.cert2.title">영업등록증</h3>
               </div>
             </article>
-            
+
             <!-- Cert 3: SME -->
             <article class="cert-card">
               <div class="cert-card__image">
@@ -518,7 +546,7 @@
                 </picture>
               </div>
               <div class="cert-card__content">
-                <h3 class="cert-card__title">중소기업 확인서</h3>
+                <h3 class="cert-card__title" data-i18n="certifications.cert3.title">중소기업 확인서</h3>
               </div>
             </article>
             

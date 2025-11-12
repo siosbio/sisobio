@@ -13,17 +13,17 @@
     "themeSwitch": "Dark Mode"
   },
   "hero": {
-    "titleLine1": "Innovation Opening",
-    "titleLine2": "Marine Resources' Future",
-    "subtitleLine1": "Pure Deep Sea Water R&D,",
-    "subtitleLine2": "Realizing the Value of Pure Salt",
+    "titleLine1": "Clean Deep Sea Water of\u00A0the\u00A0East\u00A0Sea",
+    "subtitleLine1": "Realizing the Value of Pure Salt",
+    "subtitleLine2": "Innovation Opening the Future of Marine Resources",
     "description": "A specialized company in deep-sea water technology, producing premium salt and researching bio-materials",
-    "cta1": "View Products",
-    "cta2": "About Us"
+    "cta1": "About Us",
+    "cta2": "View Products"
   },
   "about": {
     "title": "About Us",
-    "description": "SISOBIO is a leader in deep-sea water research and premium salt production",
+    "descriptionLine1": "Leading in deep-sea water R&D and",
+    "descriptionLine2": "premium salt production",
     "subtitle": "Deep Sea Water Bio Technology Company",
     "overview": {
       "title": "Company Overview",
@@ -48,26 +48,42 @@
     },
     "timeline": {
       "title": "Milestones",
-      "year2024": "Launched 3 premium salt products",
-      "year2023": "Obtained deep-sea water extraction patent",
-      "year2022": "Completed production facility",
-      "year2021": "Corporation established",
+      "year2025": "Launched 'Deungdae Salt The Flake' 3 premium salt products",
+      "year2024": "Obtained deep-sea water extraction patent",
+      "year2023": "Established process standardization for mineral analysis and crystal formation",
+      "year2022": "Established deep-sea water mineral-based product development laboratory",
+      "year2021": "Company established in Goseong-gun, Gangwon Province",
+      "event_2025_1": "Factory registered in Gangneung",
+      "event_2025_2": "Launched 'Deungdae Salt The Flake' 3 product variants",
+      "event_2025_3": "Launched premium flake salt brand capturing Gangneung's ocean",
+      "event_2025_4": "Advanced high-purity sodium and trace element extraction technology, initiated functional food and bio-material research",
+      "event_2024_1": "Patent No. 10-2722001 'System and Method for Producing Salt Using Deep-Sea Water' registered",
+      "event_2024_2": "Trademark application for 'Deungdae Salt'",
+      "event_2024_3": "Improved mineral preservation through low-temperature crystallization and layered drying process",
+      "event_2023_1": "Established process standardization for mineral analysis and crystal formation",
+      "event_2023_2": "Expanded salt crystallization system experiments based on water quality data from Gangneung and Goseong waters",
+      "event_2022_1": "Patent No. 10-2462843 'Oil Press Machine for Extracting Seed Components of Medicinal Crops' registered",
+      "event_2022_2": "Signed tenancy contract with Goseong Deep Sea Water Industry Promotion Agency",
+      "event_2022_3": "Established deep-sea water mineral-based product development laboratory",
+      "event_2021_1": "Company established in Goseong-gun, Gangwon Province",
+      "event_2021_2": "Initiated deep-sea water crystallization research",
+      "event_2021_3": "Commenced flake crystal structure stabilization experiments and prototype development",
       "items": [
         {
           "year": "2025",
           "events": [
             "Factory registered in Gangneung",
-            "Advanced high-purity sodium and trace element extraction technology, initiated functional food and bio-material research",
+            "Launched 'Deungdae Salt The Flake' 3 product variants",
             "Launched premium flake salt brand capturing Gangneung's ocean",
-            "Launched 'Deungdae Salt The Flake' 3 product variants"
+            "Advanced high-purity sodium and trace element extraction technology, initiated functional food and bio-material research"
           ]
         },
         {
           "year": "2024",
           "events": [
             "Patent No. 10-2722001 'System and Method for Producing Salt Using Deep-Sea Water' registered",
-            "Improved mineral preservation through low-temperature crystallization and layered drying process",
-            "Trademark application for 'Deungdae Salt'"
+            "Trademark application for 'Deungdae Salt'",
+            "Improved mineral preservation through low-temperature crystallization and layered drying process"
           ]
         },
         {
@@ -88,7 +104,7 @@
         {
           "year": "2021",
           "events": [
-            "Corporation established in Goseong-gun, Gangwon Province",
+            "Company established in Goseong-gun, Gangwon Province",
             "Initiated deep-sea water crystallization research",
             "Commenced flake crystal structure stabilization experiments and prototype development"
           ]
@@ -106,7 +122,7 @@
     },
     "production": {
       "title": "Production",
-      "description": "Premium salt production using pure East Sea deep-sea water"
+      "description": "Premium salt production using East Sea deep-sea water"
     },
     "quality": {
       "title": "Quality Control",
@@ -147,10 +163,10 @@
       "descriptionLine2": "Made with SISOBIO's proprietary low-temperature crystallization and layered drying technology, the salt has a mild salinity and delicate flake crystals that dissolve naturally in your mouth.",
       "highlights": [
         "Pure deep-sea water sourced 6km offshore at 605m depth in the East Sea",
-        "Clean seawater from a 1,000-year journey of Arctic glaciers",
-        "Microplastic 0ppm certified (KOTITI)",
-        "All heavy metals not detected (Lead, Arsenic, Mercury, Cadmium)",
-        "Essential minerals (Na, Mg, Ca, K, Sr) preserved naturally",
+        "No! Fine Dust Approaching Zero",
+        "No! Microplastic 0ppm certified (KOTITI)",
+        "No! All heavy metals not detected (Lead,\u00A0Arsenic,\u00A0Mercury,\u00A0Cadmium)",
+        "Essential minerals preserved naturally (Na,\u00A0Mg,\u00A0Ca,\u00A0K,\u00A0Sr) ",
         "Patent No. 10-2722001 Low-temperature crystallization & layered drying technology"
       ]
     },
@@ -173,7 +189,9 @@
       "weight": "Weight",
       "type": "Package",
       "bottle": "Bottle",
-      "pouch": "Pouch"
+      "pouch": "Pouch",
+      "ingredient": "Ingredients",
+      "ingredientValue": "Deep Sea Water 100%"
     },
     "items": [
       {
@@ -235,10 +253,23 @@
       "certs": "Certificates"
     },
     "patent1": {
-      "title": "System and Method for Producing Salt Using Deep-Sea Water"
+      "title": "System and Method for Producing Salt Using Deep-Sea Water",
+      "number": "Patent No. 10-2722001",
+      "date": "Oct. 22, 2024"
     },
     "patent2": {
-      "title": "Oil Press Machine for Extracting Seed Components of Medicinal Crops"
+      "title": "Oil Press Machine for Extracting Seed Components of Medicinal Crops",
+      "number": "Patent No. 10-2462843",
+      "date": "Oct. 31, 2022"
+    },
+    "cert1": {
+      "title": "Business Report Certificate"
+    },
+    "cert2": {
+      "title": "Business Registration Certificate"
+    },
+    "cert3": {
+      "title": "Small Business Confirmation"
     },
     "patents": {
       "title": "Patents",
@@ -348,9 +379,9 @@
       "established": "November 24, 2021"
     },
     "address": {
-      "office": "3F, 10, 42, Songjiho-ro, Jugwang-myeon, Goseong-gun, Gangwon-do, 24747, Rep. of KOREA (Deep Sea Water Industry Goseong Promotion Agency)",
+      "office": "3F-10, 42, Songjiho-ro, Jugwang-myeon, Goseong-gun, Gangwon-do, 24747, Rep. of KOREA (Deep Sea Water Industry Goseong Promotion Agency) (Postal\u00A0Code:\u00A024747)",
       "officeMap": "https://map.naver.com/v5/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B3%A0%EC%84%B1%EA%B5%B0%20%EC%A3%BD%EC%99%95%EB%A9%B4%20%EC%86%A1%EC%A7%80%ED%98%B8%EB%A1%9C%2042",
-      "factory": "2F, 205, 641-28, Saimdang-ro, Gangneung-si, Gangwon-do, 25451, Rep. of KOREA (Catholic Kwandong University R&B Park)",
+      "factory": "2F-205, 641-28, Saimdang-ro, Gangneung-si, Gangwon-do, 25451, Rep. of KOREA (Catholic Kwandong University R&B Park) (Postal\u00A0Code:\u00A025451)",
       "factoryMap": "https://map.naver.com/v5/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B0%95%EB%A6%89%EC%8B%9C%20%EC%82%AC%EC%9E%84%EB%8B%B9%EB%A1%9C%20641-28"
     },
     "business": {
@@ -363,7 +394,7 @@
     "description": "Premium salt made from pure East Sea deep-sea water",
     "ceo": "CEO: Kyeong-Do Chun",
     "businessNumber": "Business No: 406-04-24945",
-    "address": "Address: 3F, 10, 42, Songjiho-ro, Jugwang-myeon, Goseong-gun, Gangwon-do, 24747, Rep. of KOREA (Deep Sea Water Industry Goseong Promotion Agency)",
+    "address": "Address: 3F-10, 42, Songjiho-ro, Jugwang-myeon, Goseong-gun, Gangwon-do, 24747, Rep. of KOREA (Deep Sea Water Industry Goseong Promotion Agency) (Postal\u00A0Code:\u00A024747)",
     "phone": "Phone: 070-8018-9079",
     "copyright": "© 2025 SISOBIO All rights reserved.",
     "quickLinks": {
