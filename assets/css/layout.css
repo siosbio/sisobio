@@ -293,6 +293,13 @@ body {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  
+  /* Parallax Background */
+  background-image: url('../images/hero/ocean-desktop.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Parallax effect */
 }
 
 @media (max-width: 767px) {
@@ -302,7 +309,7 @@ body {
   }
 }
 
-/* Hero Background Image */
+/* Hero Background Image (hidden when using CSS background) */
 .hero__bg {
   position: absolute;
   top: 0;
@@ -312,6 +319,8 @@ body {
   object-fit: cover;
   object-position: center;
   z-index: 1;
+  opacity: 0; /* Hidden - using CSS background instead */
+  pointer-events: none;
 }
 
 /* Hero Overlay */

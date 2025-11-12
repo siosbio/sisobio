@@ -141,6 +141,19 @@
     "description": "Premium salt made from pure deep-sea water",
     "badge": "NEW",
     "cta": "Inquiry",
+    "intro": {
+      "title": "Deungdae Salt The Flake",
+      "descriptionLine1": "Crystalline salt that preserves minerals obtained from the clean deep waters of the East Sea.",
+      "descriptionLine2": "Made with SISOBIO's proprietary low-temperature crystallization and layered drying technology, the salt has a mild salinity and delicate flake crystals that dissolve naturally in your mouth.",
+      "highlights": [
+        "Pure deep-sea water sourced 6km offshore at 605m depth in the East Sea",
+        "Clean seawater from a 1,000-year journey of Arctic glaciers",
+        "Microplastic 0ppm certified (KOTITI)",
+        "All heavy metals not detected (Lead, Arsenic, Mercury, Cadmium)",
+        "Essential minerals (Na, Mg, Ca, K, Sr) preserved naturally",
+        "Patent No. 10-2722001 Low-temperature crystallization & layered drying technology"
+      ]
+    },
     "original100": {
       "name": "Deungdae Salt Original",
       "subtitle": "100g Bottle Type",
