@@ -8,16 +8,11 @@
  * Initialize all modules when DOM is ready
  */
 document.addEventListener('DOMContentLoaded', () => {
-  console.log('SISOBIO Website Loaded');
-  
   // Initialize all modules
   initSmoothScroll();
   initScrollToTop();
   initHeaderScroll();
   initTabSwitching();
-  
-  // Log success
-  console.log('All modules initialized');
 });
 
 
@@ -104,7 +99,7 @@ function initScrollToTop() {
       firstFocusable.focus();
     }
   });
-  
+
   // Keyboard accessibility: Enter or Space key
   scrollToTopBtn.addEventListener('keydown', (e) => {
     if (e.key === 'Enter' || e.key === ' ') {
@@ -112,8 +107,6 @@ function initScrollToTop() {
       scrollToTopBtn.click();
     }
   });
-  
-  console.log('Floating scroll to top button initialized');
 }
 
 

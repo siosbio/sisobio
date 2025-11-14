@@ -28,7 +28,7 @@
     overflow-wrap: break-word;
     
     /* Mobile: 모바일 배경 이미지 + Parallax 비활성화 */
-    background-image: url('../images/hero/ocean-mobile.webp');
+    background-image: url('../images/hero/ocean_mobile.webp');
     background-attachment: scroll; /* 모바일: 성능을 위해 Parallax 끔 */
   }
   
@@ -72,11 +72,6 @@
     font-size: 0.875rem; /* 14px */
   }
   
-  /* Product Card */
-  .product-card__price {
-    font-size: 1.5rem; /* 24px */
-  }
-
   /* About Timeline - Mobile Optimization */
   .about__timeline {
     padding: var(--spacing-2xl) var(--spacing-md); /* 상하 48px (기업개요와 동일), 좌우 16px (최소화) */
@@ -152,10 +147,10 @@
 
 
 /* ==========================================
-   TABLET (768px - 1023px)
+   TABLET (768px - 1024px)
    ========================================== */
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   
   /* Container Padding */
   .container {
@@ -171,7 +166,7 @@
   /* Hero Section */
   .hero {
     /* Tablet: 태블릿 배경 이미지 */
-    background-image: url('../images/hero/ocean-tablet.webp');
+    background-image: url('../images/hero/ocean_tablet.webp');
     /* Parallax 효과 유지 (태블릿에서는 성능 괜찮음) */
     background-attachment: fixed;
   }
@@ -221,10 +216,10 @@
 
 
 /* ==========================================
-   DESKTOP (≥ 1024px)
+   DESKTOP (≥ 1025px)
    ========================================== */
 
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
   
   /* Container Padding */
   .container {
@@ -246,7 +241,7 @@
   /* Hero Section */
   .hero {
     /* Desktop: 데스크톱 배경 이미지 + Parallax */
-    background-image: url('../images/hero/ocean-desktop.webp');
+    background-image: url('../images/hero/ocean_desktop.webp');
     background-attachment: fixed; /* Parallax 효과 */
   }
   
@@ -341,12 +336,7 @@
     align-items: center;
   }
   
-  /* Social Links */
-  .social-link {
-    width: 48px;
-    height: 48px;
-  }
-  
+
 }
 
 /* Prevent iOS text size adjustment */
@@ -468,7 +458,6 @@ body {
   .header,
   .hero__scroll,
   .btn,
-  .social-link,
   .mobile-menu {
     display: none !important;
   }
@@ -590,16 +579,6 @@ img[loading="lazy"] {
    ACCESSIBILITY - SCREEN READERS
    ========================================== */
 
-/* Show on focus for skip links */
-.skip-link:focus {
-  position: static;
-  width: auto;
-  height: auto;
-  overflow: visible;
-  clip: auto;
-  white-space: normal;
-}
-
 /* Focus visible for keyboard navigation */
 :focus-visible {
   outline: 3px solid var(--color-primary);
@@ -638,7 +617,7 @@ img[loading="lazy"] {
     }
   }
   
-  @media (min-width: 1024px) {
+  @media (min-width: 1025px) {
     .business-card,
     .product-card,
     .cert-card {
@@ -702,7 +681,7 @@ img[loading="lazy"] {
 }
 
 /* Tablet */
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .products__intro {
     min-height: 450px;
   }

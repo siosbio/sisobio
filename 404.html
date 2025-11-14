@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>404 - 페이지를 찾을 수 없습니다 | 시소바이오</title>
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/variables.css">
+
+  <style>
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 1rem;
+    }
+
+    .error-container {
+      background: white;
+      border-radius: 1rem;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      padding: 3rem 2rem;
+      text-align: center;
+      max-width: 500px;
+      width: 100%;
+    }
+
+    .error-code {
+      font-size: 8rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin: 0;
+      line-height: 1;
+    }
+
+    .error-title {
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: #1a202c;
+      margin: 1.5rem 0 1rem;
+    }
+
+    .error-message {
+      font-size: 1rem;
+      color: #718096;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+
+    .btn-home {
+      display: inline-block;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      text-decoration: none;
+      padding: 0.875rem 2rem;
+      border-radius: 0.5rem;
+      font-weight: 500;
+      transition: transform 0.2s, box-shadow 0.2s;
+      box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+    }
+
+    .btn-home:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+    }
+
+    .wave-emoji {
+      font-size: 3rem;
+      animation: wave 1s ease-in-out infinite;
+      display: inline-block;
+      margin-bottom: 1rem;
+    }
+
+    @keyframes wave {
+      0%, 100% { transform: rotate(0deg); }
+      25% { transform: rotate(20deg); }
+      75% { transform: rotate(-20deg); }
+    }
+
+    @media (max-width: 768px) {
+      .error-code {
+        font-size: 6rem;
+      }
+
+      .error-title {
+        font-size: 1.5rem;
+      }
+
+      .error-container {
+        padding: 2rem 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="error-container">
+    <div class="wave-emoji">🌊</div>
+    <h1 class="error-code">404</h1>
+    <h2 class="error-title">페이지를 찾을 수 없습니다</h2>
+    <p class="error-message">
+      요청하신 페이지가 존재하지 않거나 이동되었습니다.<br>
+      입력하신 주소가 정확한지 다시 한번 확인해 주세요.
+    </p>
+    <a href="/" class="btn-home">홈으로 돌아가기</a>
+  </div>
+</body>
+</html>

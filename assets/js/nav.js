@@ -21,26 +21,23 @@ class NavigationManager {
    */
   init() {
     if (!this.mobileMenuToggle || !this.mobileMenu) {
-      console.warn('Mobile menu elements not found');
       return;
     }
-    
+
     // Setup toggle button
     this.setupToggleButton();
-    
+
     // Setup menu link clicks
     this.setupMenuLinks();
-    
+
     // Setup outside click
     this.setupOutsideClick();
-    
+
     // Setup escape key
     this.setupEscapeKey();
-    
+
     // Setup resize handler
     this.setupResizeHandler();
-    
-    console.log('Navigation initialized');
   }
   
   /**
@@ -84,8 +81,6 @@ class NavigationManager {
         this.mobileMenuLinks[0].focus();
       }, 100);
     }
-    
-    console.log('Mobile menu opened');
   }
   
   /**
@@ -100,8 +95,6 @@ class NavigationManager {
     
     // Restore body scroll
     document.body.style.overflow = '';
-    
-    console.log('Mobile menu closed');
   }
   
   /**

@@ -24,11 +24,9 @@ class ThemeManager {
     
     // Setup toggle button
     this.setupToggleButton();
-    
+
     // Listen for system theme changes
     this.listenForSystemThemeChanges();
-    
-    console.log(`Theme initialized: ${this.currentTheme}`);
   }
   
   /**
@@ -90,10 +88,7 @@ class ThemeManager {
   toggleTheme() {
     const newTheme = this.currentTheme === 'light' ? 'dark' : 'light';
     this.applyTheme(newTheme);
-    
-    // Log for debugging
-    console.log(`Theme toggled to: ${newTheme}`);
-    
+
     // Dispatch custom event
     const event = new CustomEvent('themechange', {
       detail: { theme: newTheme }

@@ -12,10 +12,19 @@
   <meta property="og:description" content="청정 동해의 해양심층수를 연구 개발하고, 깨끗한 소금 한 꼬집의 가치를 실현합니다.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://sisobio.com">
-  <meta property="og:image" content="./assets/images/hero/ocean-desktop.webp">
-  
+  <meta property="og:image" content="https://sisobio.com/assets/images/hero/ocean_desktop.webp">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="시소바이오 - 해양 자원의 미래를 여는 혁신">
+  <meta name="twitter:description" content="청정 동해의 해양심층수를 연구 개발하고, 깨끗한 소금 한 꼬집의 가치를 실현합니다.">
+  <meta name="twitter:image" content="https://sisobio.com/assets/images/hero/ocean_desktop.webp">
+
   <title data-i18n="meta.title">시소바이오 - 해양 자원의 미래를 여는 혁신</title>
-  
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://sisobio.com/">
+
   <!-- Favicons -->
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -26,8 +35,13 @@
   <!-- Fonts: Noto Sans KR + Roboto -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-  
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&subset=korean&family=Roboto:wght@400;500;700&subset=latin&display=swap" rel="stylesheet">
+
+  <!-- Preload Critical Resources -->
+  <link rel="preload" as="image" href="./assets/images/hero/ocean_mobile.webp" media="(max-width: 767px)">
+  <link rel="preload" as="image" href="./assets/images/hero/ocean_tablet.webp" media="(min-width: 768px) and (max-width: 1024px)">
+  <link rel="preload" as="image" href="./assets/images/hero/ocean_desktop.webp" media="(min-width: 1025px)">
+
   <!-- CSS Files -->
   <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/variables.css">
@@ -108,13 +122,6 @@
          1. HERO SECTION
          ========================================== -->
     <section class="hero" id="hero" aria-labelledby="hero-title">
-      <!-- Background Image -->
-      <picture>
-        <source media="(min-width: 1024px)" srcset="./assets/images/hero/ocean-desktop.webp">
-        <source media="(min-width: 768px)" srcset="./assets/images/hero/ocean-tablet.webp">
-        <img src="./assets/images/hero/ocean-mobile.webp" alt="" class="hero__bg" loading="eager">
-      </picture>
-      
       <!-- Overlay -->
       <div class="hero__overlay"></div>
       
@@ -124,7 +131,7 @@
           <span class="hero__title-line" data-i18n="hero.titleLine1">청정 동해의 해양심층수</span>
         </h1>
         <p class="hero__subtitle">
-          <span class="hero__subtitle-line" data-i18n="hero.subtitleLine1">깨끗한 소금 한 꼬집의 가치 실현</span>
+          <span class="hero__subtitle-line" data-i18n="hero.subtitleLine1">깨끗한 소금 한 꼬집의 가치 실현과</span>
           <span class="hero__subtitle-line" data-i18n="hero.subtitleLine2">해양 자원의 미래를 여는 혁신</span>          
         </p>
         
@@ -337,8 +344,8 @@
           <article class="product-card">
             <div class="product-card__image">
               <picture>
-                <source media="(min-width: 768px)" srcset="./assets/images/products/product_100g_large.webp">
-                <source media="(min-width: 375px)" srcset="./assets/images/products/product_100g_medium.webp">
+                <source media="(min-width: 1025px)" srcset="./assets/images/products/product_100g_large.webp">
+                <source media="(min-width: 768px)" srcset="./assets/images/products/product_100g_medium.webp">
                 <img src="./assets/images/products/product_100g_small.webp" alt="등대소금 오리지널 100g" loading="lazy">
               </picture>
               <span class="product-card__badge" data-i18n="products.badge">NEW</span>
@@ -365,8 +372,6 @@
                   <span class="spec-item__value" data-i18n="products.specs.ingredientValue">해양심층수 100%</span>
                 </div>
               </div>
-              
-              <div class="product-card__price" style="display: none;">12,000원</div>
             </div>
           </article>
           
@@ -374,8 +379,8 @@
           <article class="product-card">
             <div class="product-card__image">
               <picture>
-                <source media="(min-width: 768px)" srcset="./assets/images/products/product_250g_large.webp">
-                <source media="(min-width: 375px)" srcset="./assets/images/products/product_250g_midium.webp">
+                <source media="(min-width: 1025px)" srcset="./assets/images/products/product_250g_large.webp">
+                <source media="(min-width: 768px)" srcset="./assets/images/products/product_250g_midium.webp">
                 <img src="./assets/images/products/product_250g_small.webp" alt="등대소금 파우치 250g" loading="lazy">
               </picture>
             </div>
@@ -401,8 +406,6 @@
                   <span class="spec-item__value" data-i18n="products.specs.ingredientValue">해양심층수 100%</span>
                 </div>
               </div>
-              
-              <div class="product-card__price" style="display: none;">25,000원</div>
             </div>
           </article>
           
@@ -410,8 +413,8 @@
           <article class="product-card">
             <div class="product-card__image">
               <picture>
-                <source media="(min-width: 768px)" srcset="./assets/images/products/product_500g_large.webp">
-                <source media="(min-width: 375px)" srcset="./assets/images/products/product_500g_medium.webp">
+                <source media="(min-width: 1025px)" srcset="./assets/images/products/product_500g_large.webp">
+                <source media="(min-width: 768px)" srcset="./assets/images/products/product_500g_medium.webp">
                 <img src="./assets/images/products/product_500g_small.webp" alt="등대소금 대용량 500g" loading="lazy">
               </picture>
             </div>
@@ -437,11 +440,9 @@
                   <span class="spec-item__value" data-i18n="products.specs.ingredientValue">해양심층수 100%</span>
                 </div>
               </div>
-              
-              <div class="product-card__price" style="display: none;">45,000원</div>
             </div>
           </article>
-          
+
         </div>
       </div>
     </section>
@@ -473,9 +474,9 @@
             <article class="cert-card">
               <div class="cert-card__image">
                 <picture>
-                  <source media="(min-width: 1024px)" srcset="./assets/images/certifications/patent_1_desktop.webp">
-                  <source media="(min-width: 768px)" srcset="./assets/images/certifications/patent_1_tablet.webp">
-                  <img src="./assets/images/certifications/patent_1_mobile.webp" alt="특허 제10-2722001호" loading="lazy">
+                  <source media="(min-width: 1025px)" srcset="./assets/images/certifications/patent_cert_1_desktop.webp">
+                  <source media="(min-width: 768px)" srcset="./assets/images/certifications/patent_cert_1_tablet.webp">
+                  <img src="./assets/images/certifications/patent_cert_1_mobile.webp" alt="특허 제10-2722001호" loading="lazy">
                 </picture>
               </div>
               <div class="cert-card__content">
@@ -489,9 +490,9 @@
             <article class="cert-card">
               <div class="cert-card__image">
                 <picture>
-                  <source media="(min-width: 1024px)" srcset="./assets/images/certifications/patent_2_desktop.webp">
-                  <source media="(min-width: 768px)" srcset="./assets/images/certifications/patent_2_tablet.webp">
-                  <img src="./assets/images/certifications/patent_2_mobile.webp" alt="특허 제10-2462843호" loading="lazy">
+                  <source media="(min-width: 1025px)" srcset="./assets/images/certifications/patent_cert_2_desktop.webp">
+                  <source media="(min-width: 768px)" srcset="./assets/images/certifications/patent_cert_2_tablet.webp">
+                  <img src="./assets/images/certifications/patent_cert_2_mobile.webp" alt="특허 제10-2462843호" loading="lazy">
                 </picture>
               </div>
               <div class="cert-card__content">
@@ -512,9 +513,9 @@
             <article class="cert-card">
               <div class="cert-card__image">
                 <picture>
-                  <source media="(min-width: 1024px)" srcset="./assets/images/certifications/haccp_desktop.webp">
-                  <source media="(min-width: 768px)" srcset="./assets/images/certifications/haccp_tablet.webp">
-                  <img src="./assets/images/certifications/haccp_mobile.webp" alt="영업 신고증" loading="lazy">
+                  <source media="(min-width: 1025px)" srcset="./assets/images/certifications/business_rpt_desktop.webp">
+                  <source media="(min-width: 768px)" srcset="./assets/images/certifications/business_rpt_tablet.webp">
+                  <img src="./assets/images/certifications/business_rpt_mobile.webp" alt="영업 신고증" loading="lazy">
                 </picture>
               </div>
               <div class="cert-card__content">
@@ -526,9 +527,9 @@
             <article class="cert-card">
               <div class="cert-card__image">
                 <picture>
-                  <source media="(min-width: 1024px)" srcset="./assets/images/certifications/gmp_desktop.webp">
-                  <source media="(min-width: 768px)" srcset="./assets/images/certifications/gmp_tablet.webp">
-                  <img src="./assets/images/certifications/gmp_mobile.webp" alt="영업등록증" loading="lazy">
+                  <source media="(min-width: 1025px)" srcset="./assets/images/certifications/business_reg_desktop.webp">
+                  <source media="(min-width: 768px)" srcset="./assets/images/certifications/business_reg_tablet.webp">
+                  <img src="./assets/images/certifications/business_reg_mobile.webp" alt="영업등록증" loading="lazy">
                 </picture>
               </div>
               <div class="cert-card__content">
@@ -540,9 +541,9 @@
             <article class="cert-card">
               <div class="cert-card__image">
                 <picture>
-                  <source media="(min-width: 1024px)" srcset="./assets/images/certifications/sme_desktop.webp">
-                  <source media="(min-width: 768px)" srcset="./assets/images/certifications/sme_tablet.png">
-                  <img src="./assets/images/certifications/sme_mobile.webp" alt="중소기업 확인서" loading="lazy">
+                  <source media="(min-width: 1025px)" srcset="./assets/images/certifications/sme_cert_desktop.webp">
+                  <source media="(min-width: 768px)" srcset="./assets/images/certifications/sme_cert_tablet.webp">
+                  <img src="./assets/images/certifications/sme_cert_mobile.webp" alt="중소기업 확인서" loading="lazy">
                 </picture>
               </div>
               <div class="cert-card__content">
@@ -714,15 +715,15 @@
   <script src="./assets/js/i18n.js" defer></script>
   <script src="./assets/js/nav.js" defer></script>
   
-  <!-- Google Analytics (Replace with actual ID) -->
-<!--   
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MGHD1CWF53"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-XXXXXXXXXX');
-  </script> -->
+
+    gtag('config', 'G-MGHD1CWF53');
+  </script>  
 
 </body>
 </html>

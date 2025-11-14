@@ -35,8 +35,6 @@ class I18nManager {
       
       // Update document lang attribute
       document.documentElement.setAttribute('lang', this.currentLanguage === 'ko' ? 'ko' : 'en');
-      
-      console.log(`i18n initialized: ${this.currentLanguage}`);
     } catch (error) {
       console.error('Failed to initialize i18n:', error);
     }
@@ -74,16 +72,13 @@ class I18nManager {
       if (!response.ok) {
         throw new Error(`Failed to load ${language}.json: ${response.status}`);
       }
-      
+
       this.translations = await response.json();
-      console.log(`Loaded translations for: ${language} (cache-busted: v${timestamp})`);
-      
     } catch (error) {
       console.error(`Error loading translations for ${language}:`, error);
-      
+
       // Fallback to Korean if English fails
       if (language === 'en') {
-        console.log('Falling back to Korean');
         this.currentLanguage = 'ko';
         await this.loadTranslations('ko');
       }
@@ -113,8 +108,6 @@ class I18nManager {
         else {
           element.textContent = translation;
         }
-      } else {
-        console.warn(`Translation not found for key: ${key}`);
       }
     });
     
@@ -180,8 +173,6 @@ class I18nManager {
         }
       }
     });
-    
-    console.log(`Language-specific images applied for: ${lang}`);
   }
   
   /**
@@ -197,16 +188,14 @@ class I18nManager {
    */
   renderTimeline() {
     const timelineContainer = document.querySelector('.timeline');
-    
+
     if (!timelineContainer) {
-      console.warn('Timeline container not found');
       return;
     }
-    
+
     const timelineItems = this.getTranslation('about.timeline.items');
-    
+
     if (!Array.isArray(timelineItems) || timelineItems.length === 0) {
-      console.warn('Timeline items not found or empty');
       return;
     }
     
@@ -247,8 +236,6 @@ class I18nManager {
       li.appendChild(contentDiv);
       timelineContainer.appendChild(li);
     });
-    
-    console.log(`Rendered ${timelineItems.length} timeline items`);
   }
   
   /**
@@ -281,10 +268,7 @@ class I18nManager {
     const contactAddressDd = document.querySelector('.contact-item dd[data-i18n="contact.info.addressValue"]');
     if (contactAddressDd && addressValue) {
       contactAddressDd.textContent = addressValue;
-      console.log(`Contact address updated to: ${addressValue}`);
     }
-    
-    console.log('Contact info updated');
   }
   
   /**
@@ -310,7 +294,6 @@ class I18nManager {
    */
   async switchLanguage(language) {
     if (language !== 'ko' && language !== 'en') {
-      console.error(`Invalid language: ${language}`);
       return;
     }
     
@@ -338,16 +321,12 @@ class I18nManager {
       
       // Update font family
       this.updateFontFamily(language);
-      
-      // Log for debugging
-      console.log(`Language switched to: ${language}`);
-      
+
       // Dispatch custom event
       const event = new CustomEvent('languagechange', {
         detail: { language: language }
       });
       document.dispatchEvent(event);
-      
     } catch (error) {
       console.error(`Failed to switch language to ${language}:`, error);
     }

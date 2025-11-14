@@ -15,36 +15,7 @@
 - ✅ **다국어 지원**: 한국어/English 전환
 - ✅ **접근성**: WCAG AA 준수 (4.5:1 대비)
 - ✅ **성능 최적화**: WebP 이미지, Lazy Loading
-- ✅ **SEO 최적화**: Semantic HTML5, Meta Tags
-
-## 📁 프로젝트 구조
-
-```
-sisobio-homepage/
-├── index.html                 # 메인 HTML 파일
-├── assets/
-│   ├── css/                   # CSS 스타일시트
-│   │   ├── reset.css          # CSS 리셋
-│   │   ├── variables.css      # CSS 변수 (Light/Dark)
-│   │   ├── layout.css         # 레이아웃
-│   │   ├── components.css     # 컴포넌트
-│   │   └── responsive.css     # 반응형
-│   ├── js/                    # JavaScript 모듈
-│   │   ├── main.js            # 메인 스크립트
-│   │   ├── theme.js           # 테마 전환
-│   │   ├── i18n.js            # 다국어
-│   │   └── nav.js             # 네비게이션
-│   ├── images/                # 이미지 에셋
-│   │   ├── hero/              # Hero 배너 이미지
-│   │   ├── products/          # 제품 이미지
-│   │   ├── certifications/    # 인증서 이미지
-│   │   └── icons/             # SVG 아이콘
-│   └── locales/               # 다국어 JSON
-│       ├── ko.json            # 한국어
-│       └── en.json            # English
-├── .gitignore                 # 제외 사항
-└── README.md                  # 이 파일
-```
+- ✅ **SEO 최적화**: Semantic HTML5, Meta Tags, Sitemap, Open Graph, Twitter Cards
 
 
 ## 🎨 디자인 시스템
@@ -71,8 +42,8 @@ sisobio-homepage/
 
 ```css
 Mobile:  < 768px
-Tablet:  768px - 1023px
-Desktop: ≥ 1024px
+Tablet:  768px - 1024px
+Desktop: ≥ 1025px
 ```
 
 ## 📦 주요 기술 스택
@@ -86,7 +57,7 @@ Desktop: ≥ 1024px
 - WebP 이미지 포맷
 - Lazy Loading
 - CSS Custom Properties
-- Font Display Swap
+- Google Fonts 최적화 (subset, display=swap)
 
 ### 접근성
 - WCAG AA 준수
